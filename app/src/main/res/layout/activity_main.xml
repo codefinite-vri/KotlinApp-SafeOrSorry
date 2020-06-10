@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='@color/splashBg'
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="This Lockdown Season, are you"
+        android:textAlignment="center"
+        android:textColor='@color/white'
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="288dp"
+        android:layout_height="276dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/safeorsorry1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="331dp"
+        android:layout_height="69dp"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:text="SAFE OR SORRY"
+        android:textAlignment="center"
+        android:textColor='@color/white'
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="228dp"
+        android:layout_height="66dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textView"
+        android:src="@drawable/tt"/>>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.vritika.kotlinprojectsos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/worldsafe"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/worldsafe"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoserActivity"></activity>
+        <activity android:name=".WinnerActivity" />
+        <activity android:name=".Hospital" />
+        <activity android:name=".Scene3BActivity" />
+        <activity android:name=".Scene3Activity" />
+        <activity android:name=".Scene2BActivity" />
+        <activity android:name=".Scene1BActivity" />
+        <activity android:name=".Scene2Activity" />
+        <activity android:name=".Scene1Activity" />
+        <activity android:name=".ScenarioActivity" />
+        <activity android:name=".NameActivity" />
+        <activity android:name=".Questionnaire" />
+        <activity android:name=".AgeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

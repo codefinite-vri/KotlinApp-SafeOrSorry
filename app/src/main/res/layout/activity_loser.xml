@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDCB6"
+    tools:context=".LoserActivity">
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            app:srcCompat="@drawable/mess"
+
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="You are a fruit of your choices. You have been admitted to the hospital due to high fever. Your tests are yet to come. You need to take care and work on making yourself better. Hope you learn from your mistakes and take care of you and your loved ones. Only together can we fight this corona havoc. Get Well Soon. Bye."
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="39dp" />
+        <Button
+            android:id="@+id/restartl"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="#010100"
+            android:text="REPLAY" />
+    </LinearLayout>
+
+</RelativeLayout>
