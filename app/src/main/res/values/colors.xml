@@ -8,4 +8,6 @@
     <color name="splashBg">#FF8661</color>
     <color name="scareScreen">#FEDBB5</color>
     <color name="winner">#84FBFF</color>
+    <color name="themeColor">#ff6600</color>
+    <color name="green">#aef359</color>
 </resources>

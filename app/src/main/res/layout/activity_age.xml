@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#aef359"
+    android:background="@color/green"
     tools:context=".AgeActivity">
 
     <LinearLayout
-        android:layout_width="360dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical">
@@ -18,54 +18,53 @@
             android:id="@+id/Age1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
             android:layout_marginBottom="10dp"
+            android:text="TextView"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/op1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="0 - 10"
-            android:background="@color/white"
             android:layout_marginBottom="10dp"
-            android:textColor="#ff6600"/>
+            android:background="@color/white"
+            android:text="0 - 10"
+            android:textColor="#ff6600" />
 
         <Button
             android:id="@+id/op2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="11 - 25"
             android:layout_marginBottom="10dp"
             android:background="@color/white"
-            android:textColor="#ff6600"
-            />
+            android:text="11 - 25"
+            android:textColor="#ff6600" />
 
         <Button
             android:id="@+id/op3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="26 - 60"
             android:layout_marginBottom="10dp"
             android:background="@color/white"
-            android:textColor="#ff6600"/>
+            android:text="26 - 60"
+            android:textColor="#ff6600" />
+
         <Button
             android:id="@+id/op4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="61 - 80"
             android:background="@color/white"
-            android:textColor="#ff6600"
-            />
+            android:text="61 - 80"
+            android:textColor="#ff6600" />
 
         <Button
             android:id="@+id/op5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="> 80"
             android:background="@color/white"
-            android:textColor="#ff6600"/>
+            android:text="> 80"
+            android:textColor="#ff6600" />
 
     </LinearLayout>
 
